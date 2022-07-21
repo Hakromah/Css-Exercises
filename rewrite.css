@@ -1,0 +1,16 @@
+:root{
+    --txt-color:white;
+    --font-size:20px;
+    --bg-color:#BB86FC;
+    --font-famly:"Times New Roman", Times, serif;
+  }
+  /* pink if --bg-color is not defined */
+  body{
+   background-color:var(--bg-color, pink); 
+  }
+  
+  .ball{
+    color:var(--txt-color);
+    font-size:var(--font-size);
+    font-family:var( --font-famly)
+  }
