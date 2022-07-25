@@ -14,3 +14,6 @@
     font-size:var(--font-size);
     font-family:var( --font-famly)
   }
+.ball{
+    background-color: blue;
+}
